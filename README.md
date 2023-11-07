@@ -1,4 +1,4 @@
-# Module name
+# Huawei Cloud LTS Message Template
 <!-- BEGIN_TF_DOCS -->
 ## Requirements
 
