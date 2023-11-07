@@ -3,9 +3,9 @@ locals {
 }
 
 resource "huaweicloud_lts_notification_template" "test" {
-  name        = var.name
-  source      = "LTS"
-  locale      = "en-us"
+  name   = var.name
+  source = "LTS"
+  locale = "en-us"
 
   templates {
     sub_type = "email"
