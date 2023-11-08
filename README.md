@@ -21,7 +21,7 @@ No modules.
 
 | Name | Type |
 |------|------|
-| [huaweicloud_lts_notification_template.test](https://registry.terraform.io/providers/huaweicloud/huaweicloud/latest/docs/resources/lts_notification_template) | resource |
+| [huaweicloud_lts_notification_template.template](https://registry.terraform.io/providers/huaweicloud/huaweicloud/latest/docs/resources/lts_notification_template) | resource |
 
 ## Inputs
 
@@ -36,5 +36,7 @@ No modules.
 
 ## Outputs
 
-No outputs.
+| Name | Description |
+|------|-------------|
+| <a name="output_name"></a> [name](#output\_name) | The name of a created template |
 <!-- END_TF_DOCS -->
