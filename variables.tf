@@ -33,3 +33,13 @@ variable "sub_type" {
     error_message = "Type of template is not one of: sms, dingding, wechat, webhook, email"
   }
 }
+
+variable "template_source" {
+  description = "The source of the notification template. Currently, this parameter is mandatory to LTS."
+  type        = string
+  default     = "LTS"
+  validation {
+    condition     = var.template_source == "LTS"
+    error_message = "Template source is not LTS"
+  }
+}
