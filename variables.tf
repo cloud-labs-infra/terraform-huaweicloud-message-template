@@ -35,7 +35,7 @@ variable "sub_type" {
 }
 
 variable "template_source" {
-  description = "The source of the notification template. Currently, this parameter is mandatory to LTS."
+  description = "The source of the notification template, currently, this parameter is mandatory to LTS"
   type        = string
   default     = "LTS"
   validation {
