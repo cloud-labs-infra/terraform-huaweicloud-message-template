@@ -2,7 +2,7 @@ locals {
   name = var.name_postfix == null ? var.name : format("%s-%s", var.name, var.name_postfix)
 }
 
-resource "huaweicloud_lts_notification_template" "test" {
+resource "huaweicloud_lts_notification_template" "template" {
   name   = var.name
   source = var.template_source
   locale = var.locale
