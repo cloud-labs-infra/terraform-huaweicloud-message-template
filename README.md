@@ -28,8 +28,10 @@ No modules.
 | Name | Description | Type | Default | Required |
 |------|-------------|------|---------|:--------:|
 | <a name="input_content"></a> [content](#input\_content) | Content of template | `string` | n/a | yes |
-| <a name="input_name"></a> [name](#input\_name) | Specifies the name of the keywords alarm rule | `string` | n/a | yes |
+| <a name="input_locale"></a> [locale](#input\_locale) | Language | `string` | `"en-us"` | no |
+| <a name="input_name"></a> [name](#input\_name) | Specifies the name of the template | `string` | n/a | yes |
 | <a name="input_name_postfix"></a> [name\_postfix](#input\_name\_postfix) | Name Postfix | `string` | `null` | no |
+| <a name="input_sub_type"></a> [sub\_type](#input\_sub\_type) | Type of the template | `string` | `"email"` | no |
 
 ## Outputs
 
