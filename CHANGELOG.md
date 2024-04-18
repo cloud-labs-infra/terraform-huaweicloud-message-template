@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file.
 
+### [1.2.1](https://github.com/cloud-labs-infra/terraform-huaweicloud-message-template/compare/v1.2.0...v1.2.1) (2024-04-18)
+
+
+### Bug Fixes
+
+* Apply terraform fmt ([#7](https://github.com/cloud-labs-infra/terraform-huaweicloud-message-template/issues/7)) ([c4cdf4e](https://github.com/cloud-labs-infra/terraform-huaweicloud-message-template/commit/c4cdf4eb80fc5c44449ca757108bb3c8de7fb59e))
+
 ## [1.2.0](https://github.com/cloud-labs-infra/terraform-huaweicloud-message-template/compare/v1.1.0...v1.2.0) (2024-04-18)
 
 
